@@ -34,7 +34,69 @@ if (answer2 == "c")
 {
     points++;
     Console.Clear();
-    Console.WriteLine("Bumbaclaat! that's correct!");
+    Console.WriteLine("Bumbaraasclaat! that's correct!");
     Console.ReadLine();
 }
+else
+{
+    Console.Clear();
+    Console.WriteLine("Incorrect, bro actually has L taste...anyways");
+    Console.ReadLine();
+}
+// -----------------------------------------------------------------------------------------------------
+Console.Clear();
+Console.WriteLine("What's the best call of duty game?");
+Console.WriteLine("a) black ops  b) black ops 2  c) modern warfare 2  d) modern warfare 3");
+
+string answer3 = Console.ReadLine();
+
+if (answer3 == "b")
+{
+    points++;
+    Console.Clear();
+    Console.WriteLine("Bumbafart! that's correct!");
+    Console.ReadLine();
+}
+else
+{
+    Console.Clear();
+    Console.WriteLine("Incorrect... bro actually has L taste, anyways");
+    Console.ReadLine();
+}
+// ------------------------------------------------------------------------------
+Console.Clear();
+Console.WriteLine("What's the capital of Thailand?");
+Console.WriteLine("a)bangkok  b) bangpusi  c) bangdik  d) bangtits");
+
+string answer4 = Console.ReadLine();
+
+if (answer4 == "a")
+{
+    points++;
+    Console.Clear();
+    Console.WriteLine("Bumbaaaa! that's correct!");
+    Console.ReadLine();
+}
+else
+{
+    Console.Clear();
+    Console.WriteLine("Incorrect... bro actually sucks at geography L taste, anyways");
+    Console.ReadLine();
+}
+// -------------------------------------------------------------
+Console.WriteLine($"You got {points} questions right");
+if (points == 0)
+{
+    Console.WriteLine("Bro needs to go touch grass fr.");
+    Console.ReadLine();
+}
+else if (points < 4)
+{
+    Console.WriteLine("mid performance.");
+    Console.ReadLine();
+}
+else
+{
+    Console.WriteLine("Congrats, u proved that u know useless information about random facts.");
+    Console.ReadLine();
 }
